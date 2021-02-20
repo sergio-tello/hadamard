@@ -17,6 +17,7 @@ function setup() {
   var canvas = createCanvas(1000, 900);
   canvas.parent('canvas-div');
   Nslider = createSlider(1, 4, 2);
+  Nslider.parent('controls');
   Nslider.position(60, 80, 'relative');
   Nslider.style('width', '100px');
   N = Nslider.value();
@@ -26,6 +27,7 @@ function setup() {
   result = setup_result(result, 4, x0 + pow(2, N)*l + 5*l, y0);
   
   button_vector = createButton('resetear');
+  button_vector.parent('controls');
   button_vector.position(240, 60, 'relative');
   
   button_result = createButton('iterar');
