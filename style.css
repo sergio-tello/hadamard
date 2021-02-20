@@ -22,12 +22,13 @@ canvas {
 #controls {
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  align-items: center;
 }
 
 #control1 {
   width: 100px;
   background-color: rgb(255, 0, 0);
+  font-size: 50%;
 }
 
 #control2 {
@@ -43,4 +44,5 @@ canvas {
 #control4 {
   width: 100px;
   background-color: rgb(255, 255, 0);
+  font-size: 50%;
 }
