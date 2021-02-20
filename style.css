@@ -19,12 +19,10 @@ canvas {
   margin-right: auto;
 }
 
-div#controls {
+#controls {
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #control1 {
