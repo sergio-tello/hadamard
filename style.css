@@ -2,6 +2,17 @@ html, body {
   background-color: rgb(220, 220, 220);
 }
 
+h1 {
+  padding-left: 15px;
+  color: #456268;
+  font-size: 300%;
+  text-align: left;
+  font-family: arial;
+  border: 5px;
+  border-left-style: solid;
+  margin-bottom: 80px;
+}
+
 canvas {
   display: block;
   margin-left: auto;
