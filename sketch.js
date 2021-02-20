@@ -17,7 +17,7 @@ function setup() {
   var canvas = createCanvas(1000, 900);
   canvas.parent('canvas-div');
   Nslider = createSlider(1, 4, 2);
-  Nslider.position(60, 80);
+  Nslider.position(60, 80, relative);
   Nslider.style('width', '100px');
   N = Nslider.value();
   
