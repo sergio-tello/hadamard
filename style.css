@@ -26,23 +26,23 @@ canvas {
 }
 
 #control1 {
-  width: 100px;
+  width: 200px;
   background-color: rgb(255, 0, 0);
   font-size: 50%;
 }
 
 #control2 {
-  width: 100px;
+  width: 200px;
   background-color: rgb(0, 255, 0);
 }
 
 #control3 {
-  width: 100px;
+  width: 200px;
   background-color: rgb(0, 0, 255);
 }
 
 #control4 {
-  width: 100px;
+  width: 200px;
   background-color: rgb(255, 255, 0);
   font-size: 50%;
 }
