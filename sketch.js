@@ -32,11 +32,11 @@ function setup() {
   
   button_result = createButton('iterar');
   button_result.parent('controls');
-  button_result.position(360, 60);
+  button_result.position(360, 60, 'relative');
   
   check_labels = createCheckbox('', false);
   check_labels.parent('controls');
-  check_labels.position(480, 60);
+  check_labels.position(480, 60, 'relative');
   
   
 }
