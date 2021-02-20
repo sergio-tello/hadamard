@@ -20,6 +20,7 @@ canvas {
 }
 
 div#controls {
+  display: flex;
   background-color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
