@@ -15,6 +15,7 @@ var check_labels;
 
 function setup() {
   createCanvas(1000, 900);
+  canvas.parent('canvas-div');
   Nslider = createSlider(1, 4, 2);
   Nslider.position(60, 80);
   Nslider.style('width', '100px');
