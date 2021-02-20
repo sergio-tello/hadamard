@@ -1,14 +1,24 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
     <script src="p5.js"></script>
     <script src="p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
-
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
+  
   <body>
     <h1>Hadamard</h1>
+      <p> La matriz de Hadamard es la matriz de \(2 \times 2\) dada por:</p>
+      <p>$$H = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}$$</p>
+      <p> La siguiente herramienta interactiva te permitirá comprender la importancia que tiene la matriz de Hadamard en la computación cuántica y su papel protagónico en algoritmos como el de Deutsch–Jozsa o Grover.</p>
+    <br>
     <div>
       <script src="sketch.js"></script>
     </div>
+  </body>
 
-</body></html>
+</html>
