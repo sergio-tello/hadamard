@@ -17,7 +17,7 @@ function setup() {
   var canvas = createCanvas(1000, 900);
   canvas.parent('canvas-div');
   Nslider = createSlider(1, 4, 2);
-  Nslider.parent('controls');
+  Nslider.parent('control1');
   Nslider.position(200, 10, 'relative');
   Nslider.style('width', '100px');
   N = Nslider.value();
@@ -27,15 +27,15 @@ function setup() {
   result = setup_result(result, 4, x0 + pow(2, N)*l + 5*l, y0);
   
   button_vector = createButton('resetear');
-  button_vector.parent('controls');
+  button_vector.parent('control2');
   button_vector.position(240, 20, 'relative');
   
   button_result = createButton('iterar');
-  button_result.parent('controls');
+  button_result.parent('control3');
   button_result.position(360, 30, 'relative');
   
   check_labels = createCheckbox('', false);
-  check_labels.parent('controls');
+  check_labels.parent('control4');
   check_labels.position(480, 0, 'relative');
   
   
