@@ -46,8 +46,8 @@ function draw() {
   fill(0);
   textAlign(LEFT);
   textSize(12);
-  text('Número de qubits: ' + Nslider.value().toString(), 60, 60);
-  text('Estados básicos', 506, 72);
+  text('Número de qubits: ' + Nslider.value().toString(), 90, 60);
+  //text('Estados básicos', 506, 72);
   //textSize(38);
   //text('Matrices de Hadamard', 30, 60);
   
