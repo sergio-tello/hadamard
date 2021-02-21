@@ -109,7 +109,8 @@ function setup_vector(matrix, N, x0, y0) {
   for (var i = 0; i < pow(2, N); i++) {
     matrix[i] = [];
     for (var j = 0; j < pow(2, 0); j++) {
-      matrix[i][j] = new Cell(x0 + j*l, y0 + i*l, 1); 
+      
+matrix[i][j] = new Cell(x0 + j*l, y0 + i*l, 1); 
     }
   }
   return matrix;
@@ -119,7 +120,7 @@ function setup_result(matrix, N, x0, y0) {
   for (var i = 0; i < pow(2, N); i++) {
     matrix[i] = [];
     for (var j = 0; j < pow(2, 0); j++) {
-      matrix[i][j] = new Cell(x0 + j*l, y0 + i*l, 1); 
+      matrix[i][j] = new Cell(x0 + j*l, y0 + i*l, i == 0 ? 1: 0); 
     }
   }
   return matrix;
